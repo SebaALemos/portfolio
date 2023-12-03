@@ -542,9 +542,12 @@ html{
     display: flex;
 }
 .contacto .col{
-    width: 50%;
+    width: 100%; /* Cambiar el ancho al 100% para ocupar toda la fila */
     padding: 10px;
     position: relative;
+    display: flex;
+    flex-direction: column; /* Alinear los elementos verticalmente */
+    align-items: center;
 }
 .contacto .col input, .contacto .col textarea{
     display: block;
@@ -583,11 +586,11 @@ html{
     width: 100%;
 }
 .contacto .col img{
-    width: 100%;
+    width: 50%;
 }
 .contacto .col .info{
     position: absolute;
-    top: 40%;
+    top: 30%;
     background-color: #252A2E;
     padding: 20px;
     max-width: 350px;
