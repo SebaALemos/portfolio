@@ -491,6 +491,7 @@ html{
     height: fit-content;
     margin: 10px;
     cursor: pointer;
+    box-sizing: border-box;
 }
 .portfolio .galeria .proyecto img{
     width: 100%;
